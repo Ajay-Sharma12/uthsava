@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+/node_modules
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+src/core/config/firebase.json
+*.pem
+*.key
+*.p12
+
+# Build & runtime outputs
+/dist
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+# Test & coverage
+/coverage
+.nyc_output
+
+# Editor, OS & temporary files
+.github
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+*.sw?
+*.tmp
+*.zip
+
+# Lockfile (ignored per repo config)
+package-lock.json
